@@ -28,10 +28,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: "/array",
+      initialRoute: "/ejemplos_tipdato",
       routes: {
         "/": (BuildContext context) => Inicio(),
-        "inicio": (BuildContext context) => Inicio(),
+        "/inicio": (BuildContext context) => Inicio(),
         "/start_lvl1": (BuildContext context) => Inicio_lvl_1(),
         "/variables": (BuildContext context) => Variables(),
         "/constantes": (BuildContext context) => Constantes(),
